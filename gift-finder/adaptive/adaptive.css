@@ -1,0 +1,12 @@
+@media (max-width:1200px) {
+  .footer__socials::before {
+    width: 500px;
+    left:-35%;
+  }
+  .started__info {
+    padding-left: 20px;
+  }
+  .started__button:last-child {
+    margin-right: 20px;
+  }
+}

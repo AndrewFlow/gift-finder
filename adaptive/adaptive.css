@@ -1,0 +1,31 @@
+@media (max-width:1200px) {
+  .footer__socials::before {
+    width: 500px;
+    left:-35%;
+  }
+  .started__info {
+    padding-left: 20px;
+  }
+  .started__button:last-child {
+    margin-right: 20px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cards__card {
+    max-width: 400px;
+    flex: 50%;
+  }
+  .cards__card:nth-child(3) {
+    margin-top: 20px;
+  }
+  .cards__card:nth-child(4) {
+    margin-top: 20px;
+  }
+
+  .cards__content {
+    max-width: 410px;
+    max-height: 410px;
+  }
+}
