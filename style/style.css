@@ -32,6 +32,19 @@
   font-family: 'Gilroy', Arial, sans-serif;
 }
 
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 /* header */
 .animation {
   transition: 0.5s;
@@ -79,16 +92,8 @@
   color: #000;
 }
 .header__button {
-  border: 1px solid #F7941E;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 22px;
-  color: #F7941E;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 14px 25px;
-  transition: 0.7s;
+  width: 150px;
+  height: 43.5px;
 }
 .header__button:hover {
   background-color: #F7941E;
@@ -142,44 +147,32 @@
   font-weight: 400;
   padding: 0px 0px 23px 0px;
   margin: 0;
-
 }
 .about-us__text_second_row {
   max-width: 441px;
   text-align: justify;
 }
-.button {
+.abous-us__button {
   width: 200px;
   height: 60px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 .button_theme_yellow {
   background: #F7941E;
-  font-size: 18px;
-  line-height: 22px;
   color: white;
   border: 1px solid #F7941E;
 }
 .button_theme_yellow:hover {
   background-color: #F1F1F2;
   color: #F7941E;
-  transition: 0.5s;
   border: 1px solid #F7941E;
 }
 .button_theme_white {
-  background: #F1F1F2;
   border: 1px solid #F7941E;
   color: #F7941E;
 }
 .button_theme_white:hover {
   background-color: #F7941E;
   color: #fff;
-  transition: 0.5s;
 }
 
 /* services */
@@ -273,24 +266,14 @@
 .started__button {
   width: 200px;
   height: 50px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 22px;
   background: #F7941E;
   border: 1px solid #231F20;
   color: #231F20;
   margin-right: 16px;
 }
-
 .started__button:last-child {
   margin: 0;
 }
-
 .started__button:hover {
   background-color: #231F20;
   color: #fff;
@@ -301,7 +284,6 @@
 .blog {
   margin-bottom: 80px;
 }
-
 .blog__title {
   font-size: 32px;
   line-height: 38px;
@@ -324,7 +306,6 @@
   margin: 0 auto;
   justify-content: space-between;
 }
-
 .blog__card_size_l {
   flex: 100%;
   display: flex;
@@ -363,6 +344,10 @@
 .blog__link {
   text-decoration: none;
   color: #000;
+}
+.blog__link:hover {
+  color: #F7941E;
+  transition: 0.5s;
 }
 .blog__link_size_l {
   font-size: 18px;
@@ -437,7 +422,6 @@
   position: relative;
   padding: 56px 0px 73px;
 }
-
 .footer__link:hover {
   transform: scale(1.1,1.1);
   transition: 0.5s;
@@ -450,7 +434,6 @@
   left: -320px;
   width: 1000px;
 }
-
 .footer__image {
   width: 100%;
   height: 100%;
