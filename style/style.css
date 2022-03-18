@@ -92,6 +92,7 @@
   color: #000;
 }
 .header__button {
+  background: #fff;
   width: 150px;
   height: 43.5px;
 }
@@ -388,26 +389,15 @@
 .navigation {
   position: relative;
 }
-.logo_place_footer {
-  position: absolute;
-  top: 0;
-  left: 49%;
-}
 .navigation__body_place_footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
-  margin:0px 0px 55px 0px;
+  max-width: 614px;
+  margin: 0 auto 43px;
 }
 .navigation__item_place_footer {
   margin: 0;
-  margin: 0px 81px 0px 0px;
-}
-.navigation__item_place_footer:nth-child(2) {
-  margin: 0px 323px 0px 0px;
-}
-.navigation__item_place_footer:last-child {
-  padding: 0;
 }
 .navigation__link_place_footer {
   font-size: 14px;
